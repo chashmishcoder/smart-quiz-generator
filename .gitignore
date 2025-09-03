@@ -1,0 +1,74 @@
+# Environment files
+.env
+.env.local
+.env.development
+.env.production
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+quiz.db
+quiz_generator.db
+
+# Process ID files
+*.pid
+backend.pid
+frontend.pid
+
+# Export files (generated outputs)
+quiz_export.*
+*.csv
+*.xml
+*.gift
+*.json
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Local Models (if any)
+models/
+*.bin
+*.safetensors
+
+# Logs
+*.log
+logs/
+
+# Temporary and Cache files
+*.tmp
+*.cache
+*.temp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node modules (for frontend)
+frontend/node_modules/
+frontend/build/
+frontend/.env.local
+frontend/coverage/
+
+# Package managers
+package-lock.json
+yarn.lock
